@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1eb">
+  <meta name="description" content="Hi, I’m Stella — an AI virtual model and actress. Welcome to my world. Stay a little while.">
+  <title>Stella — Welcome to my world</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./site.config.js"></script>
+  <script defer src="./main.js"></script>
+  <script defer src="./i18n.js"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Stella home" data-i18n-aria-label="home">stella<span aria-hidden="true">✧</span></a>
+    <span class="masthead-note" data-i18n="masthead">A VIRTUAL MUSE. A WORLD OF STORIES.</span>
+    <div class="header-tools"><span class="edition"><span data-i18n="edition">THE OFFICIAL SPACE</span> <span aria-hidden="true">↗</span></span><div class="language-switch" role="group" aria-label="Language" data-i18n-aria-label="languageLabel"><button type="button" data-language="en" lang="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="zh-Hant" lang="zh-Hant" aria-pressed="false">中文</button></div></div>
+  </header>
+  <p id="language-announcement" class="sr-only" role="status" aria-live="polite"></p>
+  <main class="landing">
+    <section class="portrait-panel has-portrait" aria-label="Stella portrait" data-i18n-aria-label="portraitLabel">
+      <img id="stella-portrait" class="stella-portrait" src="./assets/stella-night.png" width="1080" height="1920" fetchpriority="high" alt="Stella in a black long-sleeved dress against warm city lights" data-i18n-alt="portraitAlt">
+      <div class="portrait-caption"><span data-i18n="portraitCaption">STELLA / VIRTUAL MODEL & ACTRESS</span><span aria-hidden="true">01 — ∞</span></div>
+    </section>
+    <section class="intro-panel" aria-labelledby="stella-name">
+      <div class="intro-top"><span class="eyebrow"><span class="small-star" aria-hidden="true">✧</span> <span data-i18n="niceToMeet">NICE TO MEET YOU</span></span><span class="small-label" data-i18n="aiLabel">FICTIONAL · AI-GENERATED</span></div>
+      <div class="intro-content">
+        <div class="greeting"><img class="stella-avatar" src="./assets/stella-smile.png" width="64" height="64" alt="Stella smiling with a hand near her mouth" data-i18n-alt="avatarAlt"><p class="hello" data-i18n="hello">Hi, I’m</p></div>
+        <h1 id="stella-name">Stella<span aria-hidden="true">.</span></h1>
+        <p class="identity"><span class="identity-role" data-i18n="model">AI VIRTUAL MODEL</span> <span class="identity-join" data-i18n="and">&</span> <span class="identity-role" data-i18n="actress">ACTRESS</span></p>
+        <p class="bio"><span data-i18n="welcome">Welcome to my world.</span><br><em data-i18n="stay">Stay a little while.</em></p>
+        <span class="divider-star" aria-hidden="true">✧</span>
+        <p class="links-heading" data-i18n="findMe">FIND A LITTLE MORE OF ME</p>
+        <div class="social-links" aria-label="Stella social accounts" data-i18n-aria-label="socialLabel">
+          <a class="social-link instagram" id="instagram-link" href="https://www.instagram.com/satin_gaze/" target="_blank" rel="noopener noreferrer" aria-describedby="instagram-status">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.4"/><circle cx="17" cy="7" r="1" fill="currentColor"/></svg></span>
+            <span class="link-copy"><strong>Instagram</strong><span data-i18n="instagramDescription">Daily life, moods & funny videos.</span></span>
+            <span class="link-status" id="instagram-status" data-i18n="visitProfile">VISIT PROFILE</span><span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-link x-social" id="x-link" href="https://x.com/SatinGaze" target="_blank" rel="noopener noreferrer" aria-describedby="x-status">
+            <span class="social-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h4l10 16h-4L5 4Z" stroke="currentColor" stroke-width="1.4"/><path d="m19 4-5.8 6.7M10.8 13.3 5 20" stroke="currentColor" stroke-width="1.4"/></svg></span>
+            <span class="link-copy"><strong>X</strong><span id="x-description" data-i18n="xDescription">A more open, daring side of me.</span></span>
+            <span class="link-status" id="x-status" data-i18n="visitProfile">VISIT PROFILE</span><span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="social-link fanvue" id="fanvue-link" href="https://www.fanvue.com/satin_gaze" target="_blank" rel="noopener noreferrer" aria-describedby="fanvue-status">
+            <span class="social-icon fanvue-mark" aria-hidden="true">f<span>v</span></span>
+            <span class="link-copy"><strong>Fanvue <span class="age-tag">18+</span></strong><span data-i18n="fanvueDescription">Completely uninhibited. Nothing held back.</span></span>
+            <span class="link-status" id="fanvue-status" data-i18n="visitProfile">VISIT PROFILE</span><span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <p class="social-note" id="social-note" data-i18n="socialNote">A new window, a little closer.</p>
+      </div>
+      <div class="intro-bottom"><span data-i18n="introBottom">A NAME. A CHARACTER. A NEW PERSPECTIVE.</span><span aria-hidden="true">✧</span></div>
+    </section>
+  </main>
+  <section class="lounge-section" aria-labelledby="lounge-heading">
+    <div class="lounge-heading"><h2 id="lounge-heading"><span data-i18n="loungeTitle">A moment, </span><em data-i18n="loungeTitleEm">off-script.</em></h2><span data-i18n="loungeSubtitle">THE QUIETER SIDE OF STELLA</span></div>
+    <figure class="lounge-photo"><img src="./assets/stella-lounge.png" width="1536" height="864" loading="lazy" alt="Stella relaxing on a brown leather sofa in a cream blouse" data-i18n-alt="loungeAlt"><figcaption><span data-i18n="betweenScenes">BETWEEN SCENES</span><span aria-hidden="true">✧</span></figcaption></figure>
+  </section>
+  <footer><span>© <span id="year">2026</span> Stella</span><p>18+ <span aria-hidden="true">·</span> <span data-i18n="disclosure">Fictional AI-generated character</span></p><span class="footer-note" data-i18n="footerNote">IMAGINED WITH AI. MADE TO TELL STORIES.</span></footer>
+</body>
+</html>
